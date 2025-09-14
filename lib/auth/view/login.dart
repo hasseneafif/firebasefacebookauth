@@ -29,7 +29,6 @@ class _LoginPageState extends State<LoginPage> {
     final user = await signInWithFacebook();
     if (user != null) {
       print("Logged in successfully: ${user.displayName}");
-      // Navigate to your app's home screen or another appropriate screen
     } else {
       print("Facebook login failed");
     }
